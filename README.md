@@ -1,1 +1,2 @@
 jó napot kívánok
+Szia!
