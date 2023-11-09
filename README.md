@@ -1,1 +1,1 @@
-jó napot
+jó napot kívánok
