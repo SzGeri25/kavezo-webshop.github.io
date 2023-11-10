@@ -1,6 +1,6 @@
 jó napot kívánok
 Szia!
-Hello!
-Főoldal: Gergő
-"Kávék" aloldal: Donát
-"Sütemények" aloldal: Ádám
+Hello! <br>
+Főoldal: Gergő <br>
+"Kávék" aloldal: Donát <br>
+"Sütemények" aloldal: Ádám <br>
