@@ -1,3 +1,3 @@
 Főoldal: Gergő <br>
 "Kávék" aloldal: Donát <br>
-"Sütemények" aloldal: Ádám <br>
+"Sütemények" aloldal: Ádám (sutemenyek.html) <br>
