@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="hu">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kávézó</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<style>
+    body {
+        background-image: url(https://i.pinimg.com/originals/8b/11/ba/8b11badd0c474062e91f9087f74045cd.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #logo {
+        height: 100px;
+        width: auto;
+    }
+</style>
+
+<body>
+    <div class="container-fluid">
+        <header>
+            <div class="row bg-warning-subtle rounded">
+                <div class="col-2">
+                    <img id="logo" src="https://cdn.pixabay.com/photo/2022/03/09/05/05/coffee-7057030_960_720.png" alt="Logó">
+                </div>
+                <div class="col-10 ">
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-warning-subtle mt-3">
+                        <div class="container-fluid">
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active fs-5" aria-current="page" href="#">
+                                    <p class="fw-bold">Kezdőlap</p></a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link active dropdown-toggle fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <b>Kávéfajták</b>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Espresso</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Americano</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Cappuccino</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Latte Macchiato</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link active dropdown-toggle fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <b>Sütemények</b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Tiramisu</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Kávés Brownie</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Kávés süti</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Kávés croissant</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Kávés muffin</a></li>
+                                </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active fs-5" aria-current="page" href="#"><b>Rólunk</b></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active fs-5" aria-current="page" href="#"><b>Kapcsolat</b></a>
+                                </li>
+                            </ul>
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" aria-label="Search">
+                                <button class="btn btn-outline-warning" type="submit">Keresés</button>
+                            </form>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-person m-3" viewBox="0 0 16 16">
+                                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="33" fill="currentColor" class="bi bi-bag " viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                            </svg>
+                            </div>
+                        </div>
+                        </nav>
+                </div>
+            </div>
+        </header>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3 bg-light p-3">
+                    Gyors és ingyenes szállítás
+                </div>
+                <div class="col-3 bg-light p-3">
+                    Biztonságos bankkártyás fizetés
+                </div>
+                <div class="col-3 bg-light p-3">
+                    Mindig készleten
+                </div>
+                <div class="col-3 bg-light p-3">
+                    Több mint 1 nap tapasztalat
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="row col-9">
+    <div class="col-3 bg-light p-3 text-center">
+        Tiramisu
+        <img src="https://i.pinimg.com/564x/88/d3/61/88d3612b8b64e47ca2ee4bbd6b130965.jpg" alt="Tiramisu" class="rounded">
+    </div>
+    <div class="col-3 bg-light p-3 text-center">
+        Kávés szelet
+        <img src="https://www.topreceptek.hu/upload/94993779_3bcde8bf1fa6c5_full.jpg" alt="Kávés szelet" class="rounded">
+    </div>
+    <div class="col-3 bg-light p-3 text-center">
+        Torta Opera
+        <img src="https://i.pinimg.com/564x/6e/29/6d/6e296d39bfe59fc967b3ed65545416b1.jpg" alt="Torta Opera" class="rounded">
+    </div>
+    <div class="col-3 bg-light p-3 text-center">
+        Kávés pundingos kocka
+        <img src="https://i.pinimg.com/564x/05/eb/09/05eb09636f3fd1f02f3efa1e2c27b6ec.jpg" alt="Kávés pundingos kocka" class="rounded>
+    </div>
+    <div class="col-3 bg-light p-3 text-center">
+        Gundel palacsinta torta
+        <img src="https://i.pinimg.com/564x/9f/c0/af/9fc0afe7562f54480c2eaaa2f39ba83e.jpg" alt="Gundel palacsinta torta" class="rounded">
+    </div>
+    <div class="col-3 bg-light p-3 text-center">
+        Almás Gundel-palacsinta
+        <img src="https://i.pinimg.com/564x/e5/b7/9b/e5b79bf320053dcbee46a08c2ca111e7.jpg" alt="Almás Gundel-palacsinta" class="rounded">
+    </div>
+</div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
