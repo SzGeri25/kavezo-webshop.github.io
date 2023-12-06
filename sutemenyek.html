@@ -3,23 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Kávézó</title>
+    <title>Sütemények</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="kavezo.css">
 </head>
-
-<style>
-    body {
-        background-image: url(https://i.pinimg.com/originals/8b/11/ba/8b11badd0c474062e91f9087f74045cd.jpg);
-        background-attachment: fixed;
-        background-size: cover;
-        background-position: center;
-    }
-
-    #logo {
-        height: 100px;
-        width: auto;
-    }
-</style>
 
 <body>
     <div class="container-fluid">
@@ -34,38 +21,18 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active fs-5" aria-current="page" href="#">
+                                    <a class="nav-link active fs-5" aria-current="page" href="kávézó.html">
                                     <p class="fw-bold">Kezdőlap</p></a>
                                 </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link active dropdown-toggle fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <li class="nav-item">
+                                    <a class="nav-link active fs-5" href="kavefajtak.html">
                                     <b>Kávéfajták</b>
                                     </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Espresso</a></li>
-                                        <li><hr class="dropdown-divider"></li>
-                                        <li><a class="dropdown-item" href="#">Americano</a></li>
-                                        <li><hr class="dropdown-divider"></li>
-                                        <li><a class="dropdown-item" href="#">Cappuccino</a></li>
-                                        <li><hr class="dropdown-divider"></li>
-                                        <li><a class="dropdown-item" href="#">Latte Macchiato</a></li>
-                                    </ul>
                                 </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link active dropdown-toggle fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <li class="nav-item ">
+                                    <a class="nav-link active fs-5" href="sutemenyek.html">
                                     <b>Sütemények</b>
                                 </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Tiramisu</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#">Kávés Brownie</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#">Kávés süti</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#">Kávés croissant</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#">Kávés muffin</a></li>
-                                </ul>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link active fs-5" aria-current="page" href="#"><b>Rólunk</b></a>
@@ -108,30 +75,33 @@
             </div>
         </div>
     </div>
-<div class="row col-9">
-    <div class="col-3 bg-light p-3 text-center">
-        Tiramisu
-        <img src="https://i.pinimg.com/564x/88/d3/61/88d3612b8b64e47ca2ee4bbd6b130965.jpg" alt="Tiramisu" class="rounded">
+    <div class="row ">
+        <div class="col-4 bg-light p-3 text-center">
+            Tiramisu
+            <img src="https://i.pinimg.com/564x/88/d3/61/88d3612b8b64e47ca2ee4bbd6b130965.jpg" alt="Tiramisu" class="rounded">
+        </div>
+        <div class="col-4 bg-light p-3 text-center">
+            Kávés szelet
+            <img src="https://www.topreceptek.hu/upload/94993779_3bcde8bf1fa6c5_full.jpg" alt="Kávés szelet" class="rounded">
+        </div>
+        <div class="col-4 bg-light p-3 text-center">
+            Torta Opera
+            <img src="https://i.pinimg.com/564x/6e/29/6d/6e296d39bfe59fc967b3ed65545416b1.jpg" alt="Torta Opera" class="rounded">
+        </div>
     </div>
-    <div class="col-3 bg-light p-3 text-center">
-        Kávés szelet
-        <img src="https://www.topreceptek.hu/upload/94993779_3bcde8bf1fa6c5_full.jpg" alt="Kávés szelet" class="rounded">
-    </div>
-    <div class="col-3 bg-light p-3 text-center">
-        Torta Opera
-        <img src="https://i.pinimg.com/564x/6e/29/6d/6e296d39bfe59fc967b3ed65545416b1.jpg" alt="Torta Opera" class="rounded">
-    </div>
-    <div class="col-3 bg-light p-3 text-center">
-        Kávés pundingos kocka
-        <img src="https://i.pinimg.com/564x/05/eb/09/05eb09636f3fd1f02f3efa1e2c27b6ec.jpg" alt="Kávés pundingos kocka" class="rounded>
-    </div>
-    <div class="col-3 bg-light p-3 text-center">
-        Gundel palacsinta torta
-        <img src="https://i.pinimg.com/564x/9f/c0/af/9fc0afe7562f54480c2eaaa2f39ba83e.jpg" alt="Gundel palacsinta torta" class="rounded">
-    </div>
-    <div class="col-3 bg-light p-3 text-center">
-        Almás Gundel-palacsinta
-        <img src="https://i.pinimg.com/564x/e5/b7/9b/e5b79bf320053dcbee46a08c2ca111e7.jpg" alt="Almás Gundel-palacsinta" class="rounded">
+    <div class="row">
+        <div class="col-3 bg-light p-3 text-center">
+            Kávés pundingos kocka
+            <img src="https://i.pinimg.com/564x/05/eb/09/05eb09636f3fd1f02f3efa1e2c27b6ec.jpg" alt="Kávés pundingos kocka" class="rounded>
+        </div>
+        <div>
+            Gundel palacsinta torta
+            <img src="https://i.pinimg.com/564x/9f/c0/af/9fc0afe7562f54480c2eaaa2f39ba83e.jpg" alt="">
+        </div>    
+        <div class="col-3 bg-light p-3 text-center">
+            Almás Gundel-palacsinta
+            <img src="https://i.pinimg.com/564x/e5/b7/9b/e5b79bf320053dcbee46a08c2ca111e7.jpg" alt="Almás Gundel-palacsinta" class="rounded">
+        </div>
     </div>
 </div>
 
