@@ -1,3 +1,4 @@
-Főoldal: Gergő <br>
-"Kávék" aloldal: Donát <br>
-"Sütemények" aloldal: Ádám (sutemenyek.html) <br>
+## Cafe webshop
+Our first school project
+
+Check it here: https://szgeri25.github.io/kavezo-webshop/
